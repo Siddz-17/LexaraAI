@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-client = Groq(api_key=os.getenv('GROQ_API_KEY'))
+client = Groq(api_key='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')
 
 def summarize_transcript(text: str) -> str:
     """Summarize video transcript."""
